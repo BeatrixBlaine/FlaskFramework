@@ -1,4 +1,31 @@
 body {
     margin: 0;
     font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table, th, td {
+  border: 1px solid black; /* Sets a 1px solid black border on all sides */
+}
+
+table {
+  border-collapse: collapse; /* Merges borders into a single line */
+  /* Optional: can add a specific border-bottom for the whole table if needed */
+  /* border-bottom: 2px solid black; */
+}
+
+/* Optional: Add padding to cells for better readability */
+th, td {
+  padding: 8px;
+}
+
+th {
+  text-align: center;
+}
+
+/* Centers the content horizontally in all table data cells */
+td {
+  text-align: center;
 }
